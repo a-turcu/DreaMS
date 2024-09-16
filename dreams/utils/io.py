@@ -338,7 +338,7 @@ def read_textual_ms_format(
     attr_mapping = {prec_mz_name: PRECURSOR_MZ, charge_name: CHARGE, adduct_name: ADDUCT, smiles_name: SMILES}
 
     data = []
-    with open(pth, 'r') as f:
+    with open(pth, 'r', encoding='utf8') as f:
         lines = f.readlines()
 
         # TODO?
