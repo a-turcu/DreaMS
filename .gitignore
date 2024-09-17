@@ -151,3 +151,4 @@ __pycache__
 *lightning_logs*
 data/mgf_MoNA_experimental.mgf
 *.hdf5
+/wandb
